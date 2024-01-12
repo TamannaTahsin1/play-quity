@@ -1,9 +1,12 @@
 import img1 from "../../assets/img/img1.png";
 import "./Blog.css";
+import { FaLocationArrow } from "react-icons/fa";
+
+
 const Blog = () => {
   return (
     <div>
-      <h1 className="text-center bg-purple-700 py-10 text-white text-5xl  md:mt-3">
+      <h1 className="text-center bg-purple-700 py-8 text-white text-5xl  md:mt-3">
         Our Blog
       </h1>
       {/* first point */}
@@ -52,6 +55,21 @@ const Blog = () => {
           </div>
           <img src={img1} className="md:w-[800px] md:h-72" alt="" />
         </div>
+      </div>
+      <div className="bg-purple-700 text-white mb-20 p-5">
+        <h1 className="text-center text-4xl">My ideas about this website</h1>
+        <ol className="text-start mt-5">
+          <li className="flex justify-center items-center gap-2">
+          <FaLocationArrow /> I can improve and accentuate the UI appearance.
+          </li>
+          <li className="flex justify-center items-center gap-2">
+          <FaLocationArrow /> Additionally, I can add more animation and functionality to make this website more enjoyable for users.
+          </li>
+          <li className="flex justify-center items-center gap-2">
+          <FaLocationArrow /> Furthermore, I can incorporate authentication to enhance the websites security.
+          </li>
+        </ol>
+       
       </div>
     </div>
   );
