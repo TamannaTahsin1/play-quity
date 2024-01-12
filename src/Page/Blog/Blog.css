@@ -1,0 +1,13 @@
+.rounded{
+    width: 64px;
+    height: 60px;
+    background-color: #cb6434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+    box-shadow: 3px 1px 0px 1px #663994;
+}
