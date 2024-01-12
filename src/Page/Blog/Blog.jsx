@@ -40,7 +40,7 @@ const Blog = () => {
           </div>
           <div>
             <p className="text-2xl text-purple-600 mb-9">
-              Stage One - Functionality: <br /> Routes, buttons and others
+              Stage two - Functionality: <br /> Routes, buttons and others
             </p>
             <p>
               All buttons on the website have real functions. <br />
@@ -58,17 +58,24 @@ const Blog = () => {
       </div>
       <div className="bg-purple-700 text-white mb-20 p-5">
         <h1 className="text-center text-4xl">My ideas about this website</h1>
-        <ol className="text-start mt-5">
-          <li className="flex justify-center items-center gap-2">
-          <FaLocationArrow /> I can improve and accentuate the UI appearance.
-          </li>
-          <li className="flex justify-center items-center gap-2">
-          <FaLocationArrow /> Additionally, I can add more animation and functionality to make this website more enjoyable for users.
-          </li>
-          <li className="flex justify-center items-center gap-2">
-          <FaLocationArrow /> Furthermore, I can incorporate authentication to enhance the websites security.
-          </li>
-        </ol>
+        <div className="text-start mt-5">
+          <div className="flex justify-center items-center gap-2">
+          <FaLocationArrow /> 
+         <p> I can improve and accentuate the UI appearance.</p>
+          </div>
+          <div className="flex justify-center md:items-center gap-2">
+          <FaLocationArrow />
+          <p>
+          Additionally, I can add more animation and functionality to make this website more enjoyable for users.
+          </p>
+          </div>
+          <div className="flex justify-center items-center gap-2">
+          <FaLocationArrow /> 
+          <p>
+          Furthermore, I can incorporate authentication to enhance the websites security.
+          </p>
+          </div>
+        </div>
        
       </div>
     </div>
