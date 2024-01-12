@@ -52,29 +52,6 @@ const Blog = () => {
           </div>
           <img src={img1} className="md:w-[800px] md:h-72" alt="" />
         </div>
-        {/* third point */}
-        <div className="grid grid-cols-1 lg:flex lg:justify-center lg:items-center lg:gap-10 my-10">
-          <div className="text-center">
-            <h1 className=" rounded">3</h1>
-          </div>
-          <div>
-            <p className="text-2xl text-purple-600 mb-9">
-              Stage One - Incubator: Training girls to be spirited athletes
-            </p>
-            <p>
-              Playquity will provide a comprehensive ultimate frisbee training
-              program for girls (only) <br /> that will enable them to develop
-              not only athletic skills but also confidence, empathy, <br />
-              communication and inter-personal skills that are critical to their
-              development. Special <br /> sessions for the mothers of the girls
-              will be conducted to earn their trust and to <br /> strengthen the
-              effects of our programming. At the end of this stage, Playquity
-              will help <br /> the girls identify coaches, managers, and player
-              positions.
-            </p>
-          </div>
-          <img src={img1} className="md:w-[800px] md:h-72" alt="" />
-        </div>
       </div>
     </div>
   );
