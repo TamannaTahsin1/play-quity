@@ -1,4 +1,5 @@
 import img1 from "../../assets/img/img1.png";
+import img2 from '../../assets/img/img2.png'
 import "./Blog.css";
 import { FaLocationArrow } from "react-icons/fa";
 
@@ -53,7 +54,7 @@ const Blog = () => {
               if they want
             </p>
           </div>
-          <img src={img1} className="md:w-[800px] md:h-72" alt="" />
+          <img src={img2} className="md:w-[800px] md:h-72" alt="" />
         </div>
       </div>
       <div className="bg-purple-700 text-white mb-20 p-5">
